@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+    font-family: 'Outfit', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+}
+* {
+   -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+           box-sizing: border-box;
+ }
+ 
+ html, body {
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+ }
+ 
+ body {
+   background: #000;
+   line-height: 1.3;
+   -webkit-font-smoothing: antialiased;
+ }
+ 
+ #particles {
+   background: url('http://arnaudel.perso.neuf.fr/Payekhali/Fonds/1280/AS11-40-5873.jpg') top center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+ }
+ 
+    #intro , .container{
+      width: 100%;
+   min-height: 100vh;
+   display: flex;
+   align-items: left;
+   justify-content: left;
+   padding:20px;
+   padding-bottom: 60px;
+   position: relative;
+   top: -50%;
+ }
+ 
+
+
+
+.container .content{
+   text-align: left;
+   position: absolute;
+   bottom: 0;
+   margin-bottom: 100px;
+}
+
+.container .content h3{
+   font-size: 50px;
+   color:#ccff00;
+}
+.container .content h3 span{
+    background: #cea5ad;
+    color:#ccff00;
+    border-radius: 5px;
+    padding:0 15px;
+ }
+ 
+ .container .content h1{
+    font-size: 70px;
+    color:#ccff00;
+ }
+ 
+ .container .content h1 span{
+    color:#cea5ad;
+ }
+
+ input .add{
+   background: #70aabc;
+ }
+
+ h4{
+   color: #ccff00;
+ }
+ .container .content p{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #ccff00;
+ }
+ .container .content .btn{
+    display: inline-block;
+    padding:10px 30px;
+    font-size: 40px;
+    background: #70aabc;
+    color:#000;
+    margin:0 5px;
+    text-transform: capitalize;
+ }
+ 
+ .container .content .btn:hover{
+    background: #cea5ad;
+ }
+ .form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    padding-bottom: 60px;
+    background: rgb(5,5,5);
+    font-family: 'Outfit', sans-serif;
+ }
+ 
+ .form-container form{
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 12px rgba(186, 184, 184, 0.05);
+    background: #000;
+    text-align: center;
+    width: 500px;
+ }
+ 
+ .form-container form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color:#ccff00;
+ }
+ 
+ .form-container form input,
+ .form-container form select{
+    width: 100%;
+    padding:10px 15px;
+    font-size: 17px;
+    margin:8px 0;
+    background: #cea5ad;
+    border-radius: 5px;
+    color: #ccff00;
+ }
+
+ .form-container form select option{
+    background: #cea5ad;
+ }
+ 
+ .form-container form .form-btn{
+    background: #70aabc;
+    color: #ccff00;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+ }
+ 
+ .form-container form .form-btn:hover{
+    background: #cea5ad;
+    color:#000;
+ }
+ .form-container form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color:#fff;
+ }
+ 
+ .form-container form p a{
+    color: #ccff00;
+ }
+ 
+ .form-container form .error-msg{
+    margin:10px 0;
+    display: block;
+    background: #70aabc;
+    color:#ccff00;
+    border-radius: 5px;
+    font-size: 20px;
+    padding:10px;
+ }
